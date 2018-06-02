@@ -1,0 +1,14 @@
+# About Author
+
+Thomas Mak, a.k.a. Makzan on internet, has been working in web design and development industry for more than 15 years. He write several books about multiple player virtual world and HTML5 mini games.
+
+You can find me on internet: 
+
+- Website: makzan.net
+- Twitter: @makzan
+- Github: @makzan
+- Codepen: @makzan
+
+**Thomas Mak is an award Winning trainer.** Thomas Mak won a bronze medal in web design in WorldSkills 2003. Worldskills is an international skills competitions. Later, Thomas returned to WorldSkills as a mentor and has been training candidates to win gold, silver and bronze medal among competitors all over the world since 2009.
+
+**Thomas Mak has written several books.** He wrote _Multiplayer Flash Virtual World_, _HTML5 Games Development: Beginner’s Guide_, _HTML5 Games Development Hotshot_, _Flexbox Website_.

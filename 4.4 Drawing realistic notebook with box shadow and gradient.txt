@@ -1,0 +1,7 @@
+## Drawing realistic notebook with box shadow and gradient
+
+![](./images/notebook.png)
+
+### Code snippets
+
+### How it works

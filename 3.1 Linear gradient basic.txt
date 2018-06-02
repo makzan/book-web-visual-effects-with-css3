@@ -1,0 +1,39 @@
+## Linear gradient basic
+
+**A basic gradient may look boring at first.** But we can create many useful effects with gradients. 
+
+![](./images/figure-7.png)
+
+Code example link: https://css3effects.com/gradient
+
+### Code snippets
+
+HTML
+
+	<div class="demo">
+	  Hello Gradient
+	</div>
+
+CSS
+
+	.demo {
+	  background: linear-gradient(gold, orange);
+	}
+	
+	.demo {
+	  width: 200px;
+	  height: 50px;
+	  border-radius: 50px;
+	  line-height: 50px;
+	  text-align: center;
+	  color: white;
+	  font-weight: bold;
+	}
+	
+	
+
+### How it works
+
+The most basic usage of gradient is to have two colors that one color blends into the other color. 
+
+### When to use this effects?

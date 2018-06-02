@@ -1,0 +1,99 @@
+## Drawing pie
+
+**By combining the circle and triangle shape, we create a pie shape.** It is still the triangle, but we apply `border-radius` on it.
+
+### Code snippet
+
+	.demo {
+	  width: 0;
+	  height: 0;
+	  border: 30px solid transparent;
+	  border-bottom-color: gold;
+	  border-radius: 50%;
+	}
+
+Result
+
+![](./images/pie.png)
+
+Code demo:
+
+https://css3effects.com/pie
+
+### How it works
+
+The size of shape depends on the border width. The width and height is set to zero. 
+￼
+![](./images/figure-5.png)
+
+### Progress indicator with Pie shape
+
+By combining these effects with pseudo elements, we can create a pie-shape progress indicator.
+
+![](./images/progress-pie.png)
+
+
+HTML
+
+	<div class="progress p0">0%</div>
+	<div class="progress p25">25%</div>
+	<div class="progress p50">50%</div>
+	<div class="progress p75">75%</div>
+	<div class="progress p100">100%</div>
+
+CSS
+
+	.progress {
+	  width: 50px;
+	  height: 50px;
+	  border: 2px solid lightgray;
+	  border-radius: 50%;
+	  position: relative;
+	  text-align: center;
+	  line-height: 50px;  
+	}
+	.progress:before {
+	  content:'';
+	  width: 100%;
+	  height: 100%;
+	  background: #eee;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  border-radius:50%;
+	  z-index: -2;
+	}
+	.progress:after {
+	  content:'';
+	  width: 0;
+	  height: 0;
+	  border: 25px solid gold;  
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  border-radius: 50%;
+	  transform: rotate(45deg);
+	  z-index: -1;
+	}
+	.progress.p0:after {
+	  border-color: transparent;
+	}
+	.progress.p25:after {
+	  border-left-color: transparent;
+	  border-bottom-color: transparent;
+	  border-right-color: transparent;
+	}
+	.progress.p50:after {
+	  border-left-color: transparent;
+	  border-bottom-color: transparent;  
+	}
+	.progress.p75:after {
+	  border-left-color: transparent;
+	}
+	
+	.progress {
+	  margin-top: 5px;
+	  margin-bottom: 10px;
+	}
+
+[https://codepen.io/makzan/pen/LmMmOr](https://codepen.io/makzan/pen/LmMmOr)

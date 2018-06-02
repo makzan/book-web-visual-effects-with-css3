@@ -1,0 +1,5 @@
+## Pause in between animation
+
+### Code snippets
+
+### How it works

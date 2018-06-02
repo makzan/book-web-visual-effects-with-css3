@@ -1,0 +1,12 @@
+
+## Pseudo Elements
+
+Pseudo elements are `:before` and `:after` that create extra elements
+
+Pseudo elements `:after` can be used to indicate extra information.
+
+	href $= ".pdf"]:after {
+	  content: ' (PDF)';
+	}
+
+We can make use of these 2 extra elements for styling purpose. For example, we will create animated underline effects with pseudo elements at chapter 2.

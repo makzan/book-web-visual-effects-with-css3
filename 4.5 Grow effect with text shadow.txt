@@ -1,0 +1,15 @@
+## Grow effect with text shadow 
+
+By using `text-shadow`
+
+![](./images/text-grow.png)
+
+### Code snippets
+
+CSS
+
+```css
+text-shadow: 0 0 5px rgb(206,97,117), 0 0 90px white, 0 0 30px rgb(206,97,117), 0 0 50px red;
+```
+
+### How it works

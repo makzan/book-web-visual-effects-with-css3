@@ -1,0 +1,13 @@
+## Box Shadow basic
+
+The most common shadow is a shadow with x-offset, y-offset, blur and color. 
+
+	box-shadow: 3px 3px 5px black;
+
+### Code snippet
+
+There are optional values being omitted here. They are `inset` and `spread`. The `inset` allows us to create realistic button switch. It creates an illusion of button that is lower that normal level.
+
+The `spread` value allows us to expand or scale down the shadow effect. It is not common but we can use the `spread` to create interesting effects. 
+
+In chapter 2, Drawing shapes, we will use box-shadow to create pixel art effects. In chapter 4, Skeuomorphic and Design, we will also use box-shadow to create different realistic effects.

@@ -1,0 +1,7 @@
+## Compose with several linear gradient
+
+**CSS3 allows multiple backgrounds.** Linear gradient is a background. So we can create multiple linear gradients.
+
+### Code snippets
+
+### How it works

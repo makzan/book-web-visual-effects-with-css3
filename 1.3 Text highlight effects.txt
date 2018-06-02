@@ -1,0 +1,38 @@
+## Text highlight effects
+
+In this effect, we use the `border-radius` to create something unusual.
+
+![](./images/text-highlight.png)
+
+https://css3effects.com/text-highlight
+
+### Code snippet
+
+They are all `<mark>` tags but with different classes for demo purpose. 
+
+CSS
+
+```
+.demo-1 mark {
+  /* No styles, default mark tag */
+}
+
+.demo-2 mark {
+  border-radius: 30px;
+}
+
+.demo-3 mark {   
+  background: rgba(255,255,0,.4);
+  border-radius: 60px 5px;
+  box-shadow: 0 0 10px yellow;
+}
+
+.demo-4 mark {
+  background: linear-gradient(to bottom, transparent 60%, yellow 60%); 
+}
+
+.demo-5 mark {
+  background: linear-gradient(to bottom, transparent 60%, yellow 60%); 
+  border-radius: 50px;
+}
+```

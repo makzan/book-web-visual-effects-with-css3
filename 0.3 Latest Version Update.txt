@@ -1,0 +1,8 @@
+# Latest Version Update
+
+Version 0.1—Finalizing the chapter headings
+In this version, I focus on adding chapter headings to finalize the content structure.
+
+## What’s expected in next update ?
+
+In next version, I fill in the content and code example links into the book. Then, I can work on each code example and write the explanation and variant usage discussions.

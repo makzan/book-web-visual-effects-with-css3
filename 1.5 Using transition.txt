@@ -1,0 +1,11 @@
+## Using transition
+
+Usually we put transition in normal selector. In such case the transition applies to both mouse in and out.
+
+By using the transition, all the numeric value are changed over the given transition duration.
+
+Numeric value includes position, dimension, color.
+
+But it the way, it is slow to transit top, left, width and height. We can use transform to move, scale and rotate an element with good performance.
+
+Throughout the book, we’ll go through different techniques, which we enhance them by adding transition.

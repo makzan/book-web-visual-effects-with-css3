@@ -1,0 +1,59 @@
+## Drawing realistic buttons with box shadow
+
+![](./images/figure-13.png)
+
+https://css3effects.com/inner-shadow-button
+
+### Code snippets
+
+HTML
+
+	<div class="demo">
+	  <a href="#" class="bold">B</a>
+	  <a href="#" class="italic">I</a>
+	  <a href="#" class="underline active">U</a>
+	</div>
+
+CSS
+
+	/* Main style */
+	.demo a {
+	  box-shadow: inset 0 -2px 3px rgba(0,0,0,.5);  
+	  background: #fcfcfc linear-gradient(to bottom, white 3px, #fcfcfc 6px);
+	}
+	.demo a.active,
+	.demo a:active {
+	  box-shadow: inset 0 2px 3px rgba(0,0,0,.5);
+	  line-height: 45px;
+	  background: #fcfcfc linear-gradient(to top, white 3px, #fcfcfc 6px);
+	}
+	
+	/* Making the button */
+	.demo a {
+	  display: inline-block;
+	  
+	  width: 34px;
+	  height: 40px;
+	  border: 1px solid grey;
+	  text-align: center;
+	  line-height: 40px;
+	  text-decoration: none;
+	  color: black;
+	  float: left;
+	}
+	.demo a.bold {
+	  font-weight: bold;
+	}
+	.demo a.italic {
+	  font-style: italic;
+	}
+	.demo a.underline {
+	  text-decoration: underline;
+	}
+
+### How it works
+
+### Light source
+
+In real world, light casts shadow on surfaces. Assuming the light is from the top. The shadow at the bottom creates an elevation feeling. The shadow at the top create a concave effects.
+
